@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Drupal Go:together</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <div id="impress" class="impress-not-supported">
+      
+      <div id="title" class="step slide" data-x="0" data-y="0">
+          <img src="http://uit.hostmaster.udev.se/sites/uit.hostmaster.udev.se/files/logo.png" class="logo" />
+          <h1>Let's talk about hosting</h1>
+          <p class="sub">Drupal Go:together @ Understandit 2012-02-09.</p>
+          <p class="author">Joel Söderberg, joel@understandit.se, http://drupal.org/user/1015248/<p>
+      </div>
+      
+      <div class="step" data-x="500" data-y="0" data-rotate="90" data-scale="0.2">
+        <p>I'm sorry for the shameless use of transitions in this presentation. I got carried away.</p>
+      </div>
+      
+      <div class="step slide" data-x="1000" data-y="0">
+        <h1 class="seciton-header">The situation</h1>
+      </div>
+      
+      <div class="step slide" data-x="2000" data-y="0">
+        <h2>Not a big player</h2>
+        <ul>
+          <li>Host 50-ish sites for clients.
+          <li>Undisclosed number of development sites and personal projects. 
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="0" data-y="800">
+        <h2>The old</h2>
+        <ul>
+          <li>Old drupal 6 stack, with some hacks to make out lives easier.
+          <li>We're stuck with it!
+        </ul>
+      </div>
+      
+      <div id="tt" class="step slide" data-x="1000" data-y="800">
+        <h2>The new...</h2>
+      </div>
+      
+      <div id="aegir-super" class="step" data-x="2000" data-y="1100" data-rotate="-90" data-scale="2">
+        <h1 style="font-size: 200px;">ÆGIR!!!</h1>
+      </div>
+      
+      <div class="step" data-x="2000" data-y="1100" data-rotate="0" data-scale="0.2">
+        Again, I am sorry..
+      </div>
+      
+      <div class="step slide" data-x="0" data-y="1600">
+        <h2>Ægir - The Good</h2>
+        <ul>
+          <li>Easy to create(/update) platforms
+          <li>Make-files
+          <li>Migrate/Clone
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="1000" data-y="1600">
+        <h2>Ægir - The Bad</h2>
+        <ul>
+          <li>It's a big deal the make changes to the platform 
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="0" data-y="2400">
+        <h2>Ægir - The Ugly</h2>
+        <ul>
+          <li>Multiple versions of site (dev/stage/live)
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="1000" data-y="2400">
+        <h1 class="seciton-header">A little something about the software beneath the software</h1>
+      </div>
+      
+      <div class="step slide" data-x="2000" data-y="2400">
+        <h2>The dream</h2>
+        <ul>
+          <li>Varnish
+          <li>Multiple servers with load balancing
+          <li>Easy to set up new servers and boost performance at need (VPS)
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="3000" data-y="2400">
+        <h2>The reality</h2>
+        <ul>
+          <li>We've come a long way! But...
+          <li>Performance is not an issue at the moment (for most of our clients)
+          <li>TIME!
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="4000" data-y="2400">
+        <h2>But if you're not prepared...</h2>
+        <ul>
+          <li>New client with potentially high traffic site
+          <li>Heavy site (loads of images)
+          <li>We thought the servers could handle it
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="3000" data-y="0">
+        <h2>... panic!</h2>
+        <ul>
+          <li>10s + response time
+          <li>Plan B?
+        </ul>
+      </div>
+      
+      <div id="sd" class="step slide" data-x="4000" data-y="0">
+        <h2>Plan B? Never heard of it!</h2>
+        <p><em>All this happend in a time frame of 40 min</em></p>
+        <p>We're not the first with the problem om distibuting large amounts
+        of data over the internet. So the solution was to use the help of
+        Giants.</p>
+      </div>
+      
+      <div class="step slide" data-x="3000" data-y="800">
+        <h2>Plan B!</h2>
+        <ul>
+          <li>Sync all statiuc data to Amazon S3
+          <li>str_replace
+        </ul>
+      </div>
+      
+      <div class="step slide" data-x="4000" data-y="800">
+        <h2>Lastly...</h2>
+        <ul>
+          <li>We're not satisfied.
+          <li>Allways looking for new ideas.
+          <li>Maybe a few of them in this room now?
+        </ul>
+      </div>
+      
+      <div id="end" class="step" data-x="3550" data-y="1500" data-scale="2" data-rotate="180">
+        <h1 style="font-size: 200px;">The end</h1>
+      </div>
+      
+      <div id="overview" class="step" data-x="2000" data-y="1100" data-scale="5">
+      </div>
+      
+    </div>
+    <script src="../../js/impress.js"></script>
+  </body>
+</html>
